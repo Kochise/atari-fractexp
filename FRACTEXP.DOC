@@ -1,0 +1,137 @@
+/// Fractal Explorer II - A KOSS Production For ATARI Falcon030 - 1997/1998 ///
+
+  Fractal, Final Frontier... (B.Mandelbrot)
+
+Introduction au concept math‚matique des fractales :
+
+  Kesako... Une fractal, si vous ne le savez pas, est un objet, une "courbe",
+bien que cet adjectif soit totalement faux, infiniment complexe.
+  Afin d'‚viter de r‚it‚rer les explications abjectes de certaines personnes,
+je vais tentez de vous expliquer avant toute chose le "comment ‡a marche"...
+Il serait cependant pr‚f‚rable que vous ayez fais une 1ø et Tø Scientifique (C
+ou D), afin que nous soyons sur la mˆme longueur d'onde, mais bon, je vais
+tenter d'etre explicite...
+
+  Dans votre jeunesse, l'on a peut ˆtre essay‚ de vous apprendre … compter
+jusqu'a trois (mais si, rappelez vous, … chaque fois que l'on remarquait que
+vous tentiez de vous aider de vos doigts, on vous les tapait avec plus ou moins
+de force, suivant la personne, afin de vous faire comprendre qu'il faut que
+vous y arriviez tout seul, et … chaque fois, de d‚pit ou par manque de courage,
+vous vous mettiez … pleurer … chaudes larmes. C'est pas si vieux, si vous y
+r‚fl‚chissez bien...). Pour en revenir … nos doigts, 2+2=4, ‡a c'est
+ind‚niable.
+  Mais l… o— je veux vous mener, c'est que vous acceptiez le fait que 1, 2, ou
+mˆme 3 (et tous les autres), soient des nombres. L…, vous devez vous en douter,
+c'est pas trop dur … comprendre. Mais imaginons que j'en vienne … vous
+apprendre que tous ces nombres soient des entiers relatifs, appartenants …
+l'ensemble N. Imaginez une longue route dans le desert, droite, infinie...
+A chaque pas en avant, c'est un nombre dans une direction, une unit‚e
+indivisible. Soit vous allez de l'avant, et vos nombres sont positifs par
+rapport au point de d‚part, soit sont n‚gatifs. -1997 sera le 1997ø pas en
+arriere que vous aurez fait. Mais il existe les fractions.
+  Ca, c'est les r‚els. Prenons que vous soyez grand, et que votre pas fasse un
+metre. S'il vous prenais l'envie de faire la moiti‚e d'un pas, vous feriez donc
+un demi pas. Attention, avant, c'‚tait des entiers, on comptait les pas (mˆme
+si votre pas faisait un demi metre, vous aviez fais un pas), ici on
+prend une nouvelle r‚f‚rence, divisible, le metre. Cet ensemble s'appelle R.
+Donc tous les nombres tels que 1.3257, voire -1795.24 appartiennent … cet
+ensemble.
+  Maintenant, une colline se profile devant vous, et votre altitude va changer.
+L'ensemble des r‚els ne suffit plus, car en une seule dimension. Attention
+cependant, car si les calculatrices donnent un repere "x/y" suviant une
+formule,
+les nombres de l'ensemble R sont r‚percut‚s dans l'ensemble R. Prenez la
+fonction y=2x, et x qui parcours R. Les y obtenus appartiennent … R, sont des
+nombres, mais sont repr‚sent‚s dans un plan, pour des raisons de lisibilit‚e.
+Mais revenons … notre notoire changement d'altitude. Notre ensemble plane, en
+une seule dimension, se r‚vele donc etre devenu obsolete, car pour indiquer une
+altitude, il est necessaire de l'indiquer. Un nouvel ensemble est utilis‚,
+celui ci s'appelle C. Il met en oeuvre les nombres complexes. En fait, ‡a ne
+l'est pas.
+  Un nombre complexe est un nombre compos‚ d'une partie r‚elle, attribu‚e … x,
+et d'une partie imaginaire. Imaginaire ne veut pas dire invent‚ de toute piece,
+c'est une appellation (d'origine incontrolable). Cette partie imaginaire est
+attribu‚e … y (enfin, on y arrive). Imaginez un point sur un plan, que dans la
+convention l'on appelle plan complexe, car repr‚sente l'ensemble des plan
+complexe, soit orthonormal (c'est … dire que l'axe x des abscisses et l'axe y
+des ordonn‚s soient perpendiculaires (ortho-), et que la dimension de l'unit‚
+sur l'axe des abscisses soit la mˆme pour l'axe des ordonn‚es (-normal)). Ce
+fameux point, on l'appelle M, et dispose des coordonn‚es X et Y. M est donc
+associ‚ au couple de coordonn‚es (X,Y), mais aussi … l'affixe z, qui est la
+repr‚sentation complexe des coordonn‚es. L'affixe z de M peut etre ‚crit
+z=X+iY, o— X est la partie r‚elle, et Y la partie imaginaire (attribu‚e … l'axe
+des ordonn‚es). Ainsi, le point M d'affixe z=2+i3 est le point M de coordonn‚es
+(2,3).
+  La partie imaginaire est cependant sp‚ciale, car iý=-1. Ce n'est pas une
+erreur, ici, un carr‚ est n‚gatif. Cette information est necessaire, car c'est
+la regle, mais pas indispensable pour la suite.
+  Il existe cependant un dernier ensemble, que l'on nomme H. Celui ci est mis
+en place lorsque deux coordonn‚es ne suffisent plus, et permet des repr‚senter
+l'espace en trois dimensions. Il fait appel … trois coordonn‚es, mais l'on sort
+… pr‚sent du sujet...
+  Revenons aux courbes dans l'ensemble des r‚els. Chacune dispose d'une
+fonction d‚riv‚e par intervalles de d‚finition (une fonction d‚finie dans R …
+une d‚riv‚e dans R, une fonction d‚finie dans R priv‚ de 1 a une d‚riv‚e dans
+l'ensemble de -ß … 1 ainsi que dans l'ensemble de 1 … +ß), qui permet de
+calculer l'‚quation de la droite tangente … n'importe quel point de cette
+courbe (dans la limite de l'intervalle, ‚videment). Une courbe telle que y=1/x
+ne peut etre d‚finie en 0, car 1/0 n'existe pas, et la d‚riv‚e n'existe pas en
+ce point (je vous ‚pargne les d‚tails, car il faudrait mettre la notion de
+limite pour comprendre les d‚riv‚e, mais je vous assure qu'en dehors du nom qui
+peut faire peur, le raisonnement n'est pas difficile … assimiler, car trŠs
+concret). On peut donc attribuer … n'importe quelle courbe une tangente (sauf
+dans des cas trŠs particuliers, qui risqueraient de vous faire peur si je vous
+en parlait en n'‚tant pas initi‚, car ne ferait qu'ajouter de l'incomprehension
+et une impression de plus grande complexit‚).
+  Cependant, un objet fractal n'admet pas de tangente, car infiniment complexe.
+Ce n'est pas un de ces cas particuliers dans R, mais bel et bien une fonction
+qui forme un r‚sultat complexe.
+  Cet objet est infini dans la mesure o— il se retrouve en lui meme. Prenez un
+choux fleur (ne vous inquietez pas, je ne d‚bute pas une recette), et observez
+sa surface. Elle est form‚e d'ensemble g‚om‚trique, que l'on peut voir … plus
+petite ‚chelle si l'on observe … pr‚sent un ensemble g‚om‚trique. Chacun semble
+etre un petit choux fleur compos‚s eux mˆme de petits ensembles. Ainsi de
+suite. En observant un objet fractal, on peut retrouver sa forme g‚n‚rale …
+diff‚rentes ‚chelle (c'est frappant surtout pour l'ensemble de Mandelbrot, qui
+est relativement reconnaissable … sa forme particuliere).
+  Mandelbrot est un grand math‚maticien qui … repris les travaux de Julia, un
+autre math‚maticien du d‚but du siecle, qui avait commenc‚ … entrevoir trŠs
+s‚rieusement les objets fractals. Les ensembles de Julia sont presque des
+fractals, visuellement d‚j…, mais par le pricipe. L'ensemble de Mandelbrot, qui
+dans le conception (voyez les formules en peut plus loin) est vraiment trŠs
+proche de celle de Julia, est v‚ritablement fractal. Il admet en plus un
+environement incalculable, cette fameuse forme de "poire" (moi j'aurais dis
+deux tomates superpos‚es). On peut en avoir dans l'ensemble de Julia, suivant
+les parametres de d‚part (et meme un "trou").
+
+Les formules des fractales de Julia et de Mandelbrot :
+
+  Les fractales sont des formules it‚ratives (qui sont r‚p‚t‚es plusieurs fois
+en reprenant le r‚sultat pr‚c‚dent), donc qui r‚utilisent les r‚sultats
+obtenus jusqu'a sortir d'une limite donn‚e. Cette limite, c'est une distance
+qui ne doit pas d‚paser 2. Cette distance est le module de la somme des
+affixes. Prenez le point M d'affixe 2+i3 et le point N d'affixe 8-i, la somme
+au carr‚ est (2+8)ý+(3-1)ý, et donc le module est û((2+8)ý+(3-1)ý). L…, faut
+suivre en math...
+
+  Dans le cas de l'ensemble de Julia, cette distance est obtenue entre les
+coordonn‚es fix‚es et le r‚sultat du calcul it‚ratif. Suivant le nombre de fois
+que l'on aura eu … faire la fonction pour que le r‚sultat diverge (la distance
+soit sup‚rieure … deux), on obtient un nombre entier que l'on peut attribuer …
+l'affixe du point du plan.
+  Prenons un plan, disons l'‚cran, et affectons lui un plan complexe. O chance,
+l'‚cran fonctionne d‚ja avec un systeme de coordonn‚es x et y. Il faudra juste
+un petit calcul pour redimensionner ce plan comme on le d‚sire (c'est … dire que
+la coordonn‚e 0 se trouve au centre de l'‚cran, par exemple, au lieu du coin
+sup‚rieur gauche, et que l'on puisse avoir des coordonn‚es n‚gatives. N'oubliez
+par que C, l'ensemble des complexes, peut etre compar‚ … R, l'ensemble des
+r‚els, car on peut avoir une cordonn‚e d'affixe z=3.287+i897.74). A pr‚sent,
+"scannons" chaque point de ce plan (dans notre cas, chaque pixel de l'‚cran,
+car ceux ci sont des unit‚es indivisibles), afin de d‚terminer l'ensemble
+fractal. Voyons la fontion...
+
+XD‚part=XD, c'est la partie r‚elle d'un couple de coordonn‚es … laquelle on
+            comparera les coordonn‚es obtenues avec la fonction
+YD‚part=YD, la partie imaginaire de ce couple
+
+XPoint=XP, la partie r‚elle du point du plan dont on veut obtenir
