@@ -1,6 +1,8 @@
 # fractexp
 
-Atari program to explore mandelbrot's fractal
+Atari program to explore mandelbrot's and julia's fractals
+
+![grab0001](https://raw.githubusercontent.com/Kochise/fractexp/master/grab0001.png)
 
 * Hardware and software needed
 
